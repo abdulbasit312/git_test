@@ -7,19 +7,24 @@
     <title>Styles Conference</title>
     <link rel="stylesheet" href="sources/main.css">
     <link rel="stylesheet" href="sources/my.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="Scripts/script.js"></script>
 </head>
 <body>
-    <header class="container group">
+    <header class="container group primary-header">
         <h1 class="logo">Styles<br> conference</h1>
-        <h3>30th March 2021</h3>
-        <nav>
+        <h3 class="tagline">30th March 2021</h3>
+        <nav class="nav primary-nav">
             <a class="btn" href="contactus.html">Contact us</a>
             <a class="btn" href="http://google.com" target="_blank">Google</a>
         </nav>
     </header>
-    <section class="hero container">
-        <h2>Dedicated to the craft of building websites</h2>
-        <p>Every year the brightest web designers and web developers descend here</p>
+    <section class="row-alt">
+    <div class="hero container">
+        <h2 class="tagline">Dedicated to the craft of building websites</h2>
+        <p class="single">Every year the brightest web designers and web developers descend here</p>
         <section>
             <h5>Speakers</h5>
             <h3>World class Speakers</h3>
@@ -28,17 +33,20 @@
                 <a class="btn btn-alt" href="register.html">register</a>
             </nav>
         </section>
+    </div>
     </section>
-    <section class="container grid">
-        <section class="col-1-3">
-            <h5>Speakers</h5>
+    <section class="row row-alt">
+    <div class="container grid">
+        <section class="inside col-1-3">
+            <a href="#"><h5>Speakers</h5></a>
         </section><!------
         --><section class="col-1-3">
-            <h5>schedule</h5>
-        </section><!--sss
+            <h5><a href="#">Schedule</a></h5>
+        </section><!--ss
         --><section class="col-1-3">
-            <h5>Venue</h5>
+            <h5><a href="#">Venue</a></h5>
         </section>
+    </div>
     </section>
     <a href="google-homepage.html"> 
     <footer class="primary-footer container group">
